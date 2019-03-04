@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="922aa938-82a2-4e32-ac76-7d195800c81a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,16 +15,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="49" lean-forward="true" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+            <state relative-caret-position="391">
+              <caret line="23" column="45" lean-forward="true" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="561">
@@ -42,12 +41,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="240" />
     <option name="y" value="130" />
     <option name="width" value="1440" />
@@ -113,12 +112,12 @@
       <option name="presentableId" value="Default" />
       <updated>1551636175505</updated>
       <workItem from="1551636178809" duration="1510000" />
-      <workItem from="1551648642671" duration="3675000" />
+      <workItem from="1551648642671" duration="3965000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5185000" />
+    <option name="totallyTimeSpent" value="5475000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -147,17 +146,17 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="49" lean-forward="true" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="33" column="18" lean-forward="true" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="45" lean-forward="true" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
         </state>
       </provider>
     </entry>
