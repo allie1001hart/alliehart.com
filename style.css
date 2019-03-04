@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
+    background: #545454;
 }
 
 a, a:hover, a:focus {
@@ -14,6 +15,9 @@ i {
     padding-left: .5em;
 }
 
+li{
+    list-style-type: none;
+}
 
 /* ---------------------------------------------------
     CONTENT STYLE
@@ -26,18 +30,43 @@ i {
     background: #545454;
 }
 
-section{
+.bigSection{
     width: 100%;
-    height: 1000px;
+    height: 2000px;
     float: left;
 }
 
-#sectionStyles{
-    border: solid #000;
+.smallSection{
+    width: 100%;
+    height: 200px;
+    float: left;
+    background: #6b6b6b;
 }
 
-.sectionStyles{
-    border: solid #000;
+.centerText{
+    position: relative;
+    float: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sectionPadding{
+    padding: 25px;
+}
+
+.smallText{
+    font-size: .75em;
+}
+
+.indent1{
+    margin-left: 2em;
+}
+.icon{
+    max-height:256px;
+    max-width: 256px;
+    min-height:256px;
+    min-width: 256px;
 }
 
 /* ---------------------------------------------------
