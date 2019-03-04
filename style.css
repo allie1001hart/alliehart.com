@@ -1,20 +1,8 @@
-@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 body {
-    font-family: 'Poppins', sans-serif;
-    background: #fafafa;
+    font-family: 'Roboto', sans-serif;
 }
 
-p {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.1em;
-    font-weight: 300;
-    line-height: 1.7em;
-    color: #999;
-}
-
-a,
-a:hover,
-a:focus {
+a, a:hover, a:focus {
     color: inherit;
     text-decoration: none;
     transition: all 0.3s;
@@ -24,6 +12,32 @@ i {
     display: inline-block;
     margin-right: .5em;
     padding-left: .5em;
+}
+
+
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+
+#content {
+    margin-left: 250px;
+    width: 100%;
+    min-height: 100vh;
+    background: #545454;
+}
+
+section{
+    width: 100%;
+    height: 1000px;
+    float: left;
+}
+
+#sectionStyles{
+    border: solid #000;
+}
+
+.sectionStyles{
+    border: solid #000;
 }
 
 /* ---------------------------------------------------
@@ -44,17 +58,8 @@ i {
     color: #fff;
     border: 5px none;
     border-right: outset #999999;
-    z-index: 1000;
     position: fixed;
-    left: 250px;
-    width: 0;
     height: 100%;
-    margin-left: -250px;
-    overflow-y: auto;
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    transition: all 0.5s ease;
 }
 
 #sidebar .sidebar-header {
@@ -72,27 +77,3 @@ i {
     color: #40d8ed;
     background: #fff;
 }
-
-/* ---------------------------------------------------
-    CONTENT STYLE
------------------------------------------------------ */
-
-#content {
-    margin-left: 250px;
-    width: 100%;
-    /*padding: 20px;*/
-    min-height: 100vh;
-    background: #545454;
-}
-
-section{
-    width: 100%;
-    height: 1000px;
-    float: left;
-}
-
-#pageA{background:#D69C61;}
-#pageB{background:#D6CF61;}
-#pageC{background:#A8D661;}
-#pageD{background:#61D6A3;}
-#pageE{background:#61A4D6;}
