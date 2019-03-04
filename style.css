@@ -20,6 +20,12 @@ a:focus {
     transition: all 0.3s;
 }
 
+i {
+    display: inline-block;
+    margin-right: .5em;
+    padding-left: .5em;
+}
+
 /* ---------------------------------------------------
     SIDEBAR STYLE
 ----------------------------------------------------- */
