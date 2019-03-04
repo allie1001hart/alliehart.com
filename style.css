@@ -39,10 +39,22 @@ i {
 #sidebar {
     min-width: 250px;
     max-width: 250px;
+    max-height: content-box;
     background: #40d8ed;
     color: #fff;
     border: 5px none;
     border-right: outset #999999;
+    z-index: 1000;
+    position: fixed;
+    left: 250px;
+    width: 0;
+    height: 100%;
+    margin-left: -250px;
+    overflow-y: auto;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 
 #sidebar .sidebar-header {
@@ -66,8 +78,21 @@ i {
 ----------------------------------------------------- */
 
 #content {
+    margin-left: 250px;
     width: 100%;
-    padding: 20px;
+    /*padding: 20px;*/
     min-height: 100vh;
     background: #545454;
 }
+
+section{
+    width: 100%;
+    height: 1000px;
+    float: left;
+}
+
+#pageA{background:#D69C61;}
+#pageB{background:#D6CF61;}
+#pageC{background:#A8D661;}
+#pageD{background:#61D6A3;}
+#pageE{background:#61A4D6;}
