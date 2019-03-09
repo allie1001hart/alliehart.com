@@ -105,7 +105,15 @@ li{
     font-size: 25px;
 }
 
+.contact{
+    font-size:1.5em;
+    padding: 1em;
+}
 
+.contactPadding{
+    padding-top: 5em;
+    padding-left: 5em;
+}
 /* ---------------------------------------------------
     SIDEBAR STYLE
 ----------------------------------------------------- */
